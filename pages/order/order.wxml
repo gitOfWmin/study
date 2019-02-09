@@ -1,0 +1,39 @@
+<button bindtap='itemClick'>返回</button>
+<view class='hr items'>
+  <image class="itemOrder" src='../../static/dianfanbao.jpg'/>
+  <view class='right'>
+  <text class='tt'>电饭煲</text>
+  <text class='des'>米家电饭煲，白色，质量保障</text>
+  <text class='pri'>¥999</text>
+  <text style='color:orange'>已发货</text>
+  </view>
+</view>
+<view class='hr items'>
+  <image class="itemOrder" src='../../static/saodi.jpg'/>
+  <view class='right'>
+  <text class='tt'>机器人</text>
+  <text class='des'>米家扫地机器人，白色，质量保障</text>
+  <text class='pri'>¥1699</text>
+  <text style='color:orange'>已发货</text>
+  </view>
+</view>
+<view class='hr items'>
+  <image class="itemOrder" src='../../static/saodi.jpg'/>
+  <view class='right'>
+  <text class='tt'>机器人</text>
+  <text class='des'>米家扫地机器人，白色，质量保障</text>
+  <text class='pri'>¥1699</text>
+  <text style='color:orange'>未发货，将在12小时内为您发货</text>
+  </view>
+</view>
+<view class='hr items'>
+  <image class="itemOrder" src='../../static/saodi.jpg'/>
+  <view class='right'>
+  <text class='tt'>机器人</text>
+  <text class='des'>米家扫地机器人，白色，质量保障</text>
+  <text class='pri'>¥1699</text>
+  <text style='color:orange'>未发货，将在12小时内为您发货</text>
+  </view>
+</view>
+
+<text class='bg'>没有更多了</text>

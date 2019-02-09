@@ -1,0 +1,28 @@
+.items{
+    padding: 20rpx;
+}
+.itemOrder{
+  width: 150rpx;
+  height: 150rpx;
+}
+.hr{
+    border-bottom: 3rpx solid #999
+}
+.right{
+  float: right;
+}
+text{
+  display: block;
+  font-size: 30rpx
+}
+.tt{
+  padding-right: 460rpx; 
+}
+.pri{
+  color: red
+}
+.bg{
+  color: #aaa;
+  text-align: center;
+  padding-top: 100rpx
+}

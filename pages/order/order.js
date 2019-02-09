@@ -1,54 +1,46 @@
-// pages/home/home.js
+// pages/order/order.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    showAuthorize:false,
-    userInfo:{}
+
   },
-  goOrder:function(){
-    wx.redirectTo({
-      url: '../order/order',
-    })
+  itemClick: function () {
+   wx.switchTab({
+     url: '../home/home',
+   })
   },
+
+  // itemClick:function(){
+  //   // var that = this;
+  //   // let pages = getCurrentPages(); //页面栈
+  //   // let currPage = pages[pages.length - 1]; //当前页面
+  //   // that.setData({
+  //   //   name: currPage.options.name //获取上上级页面传的参数
+  //   // })
+
+  //   //??? 为什么不返回上一级
+  //   wx.navigateBack({
+  //     delta: 1
+  //   })
+
+  // },
+
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.getSetting({
-      success: (response) => {
-        console.log(response)
-        if (response.authSetting['scope.userInfo']){
-         this.setData({
-           showAuthorize:true
-         })
-        }
-        else{
-          showAuthorize: false
-        }
-      }
-    })
 
-    wx.getUserInfo({
-      success:(data) =>{
-        this.setData({
-          userInfo:data.userInfo
-        })
-      }
-    })
   },
-  handleGetUserInfo(data){
-    console.log(data);
-    if (data.detail.rawData){
-      //用户点击了允许授权
-      this.onLoad();
-    }
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+
   },
 
   /**

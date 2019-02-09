@@ -4,7 +4,8 @@
     "pages/home/home",
     "pages/category/category",
     "pages/discover/discover",
-    "pages/cart/cart"
+    "pages/cart/cart",
+    "pages/order/order"
   ],
   "window": {
     "navigationBarTitleText": "小米商城Lite"

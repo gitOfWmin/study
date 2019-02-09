@@ -16,7 +16,7 @@
 </button>
 <view class='ShopListContent'>
 <image class='homeImg' src='../../static/dingdan.png'></image>
-<view class='homeShopText'>我的订单</view>
+<view class='homeShopText' bindtap='goOrder'>我的订单</view>
 </view>
 <view class='ShopListContent'>
 <image class='homeImg' src='../../static/huiyuan.png'></image>
